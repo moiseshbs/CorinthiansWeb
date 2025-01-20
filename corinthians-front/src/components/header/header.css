@@ -1,0 +1,44 @@
+
+.header {
+    height: 10%;
+    width: 95%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header .headerLeft {
+    width: 88%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.header .headerRight {
+    width: 12%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+}
+
+.header .headerRight .areaIconsHeader {
+    height: 40px;
+    width: 40px;
+    background-color: #fff;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    border-radius: 100%;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.header .headerRight .areaIconsHeader .icon{
+    font-size: 1.2rem;
+}

@@ -1,0 +1,121 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+    font-optical-sizing: auto;
+    line-height: 1.6;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+/* CONTENT AREA */
+.areaContent {
+    width: 85%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.areaContent .areaGraphs {
+    height: 90%;
+    width: 95%;
+
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.areaKpis {
+    height: 25%;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.areaKpis .cardKpi {
+    height: 95%;
+    width: 32%;
+    background-color: rgb(255, 255, 255);
+
+    border-radius: 15px;
+    border: 2px solid #ccc;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.areaKpis .cardKpi .headerCard {
+    height: 35%;
+    width: 90%;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+}
+
+.areaKpis .cardKpi .contentCard {
+    height: 65%;
+    width: 90%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.areaKpis .cardKpi .contentCard h1 {
+    font-size: 2.5rem;
+}
+
+.areaList {
+    height: 75%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.areaList .areaInput {
+    height: 10%;
+    width: fit-content;
+    gap: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.areaList .areaInput input {
+    height: 60%;
+    border-radius: 50px;
+    border: 2px solid #ccc;
+    outline: none;
+    padding-left: 10px;
+}
+
+.listBody2 {
+    height: 90%;
+    width: 98%;
+    padding: 10px;
+
+    overflow-y: scroll;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+}

@@ -1,0 +1,56 @@
+.containerModal {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.200);
+    position: absolute;
+    z-index: 2;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.areaModal {
+    height: 80%;
+    width: 80%;
+    background-color: #fff;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.areaModal .areaContentModal {
+    width: 90%;
+    height: 80%;
+
+    display: flex;
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 65%;
+    background-color: blue;
+}
+
+.cardArea {
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.extremeAreaModal {
+    height: 10%;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
